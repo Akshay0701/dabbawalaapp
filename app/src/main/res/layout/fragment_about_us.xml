@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".user.AboutUs">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="250dp"
+        android:layout_below="@+id/login"
+        android:layout_margin="20dp"
+        android:layout_height="250dp"
+        android:src="@drawable/dabbawalalogo"
+        ></ImageView>
+
+
+
+        <LinearLayout
+            android:layout_margin="0dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:padding="20dp"
+            android:background="@drawable/backcard"
+            android:layout_height="400dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Mumbai DabbaWala"
+                android:textColor="@color/colorAccent"
+                android:gravity="center_horizontal"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textAlignment="textStart"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:text="The dabbawalas (also spelled dabbawallas or dabbawallahs, called tiffin wallahs in older sources) constitute a lunchbox delivery and return system that delivers hot lunches from homes and restaurants to people at work in India, especially in Mumbai. The lunchboxes are picked up in the late morning, delivered predominantly using bicycles and railway trains, and returned empty in the afternoon. They are also used by meal suppliers in Mumbai, who pay them to ferry lunchboxes with ready-cooked meals from central kitchens to customers and back.[1] The 2013 Bollywood film The Lunchbox is based on the dabbawala service."
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorAccent"
+                android:gravity="center_horizontal"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:layout_height="wrap_content"
+                tools:ignore="RtlCompat"></TextView>
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/banner"
+            android:layout_marginTop="-40dp"
+            android:layout_width="match_parent"
+            android:src="@drawable/banner"
+            android:layout_height="wrap_content"></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Dabbawala"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="-40dp"
+            android:layout_marginLeft="17dp"
+            android:layout_height="wrap_content"></TextView>
+        <ImageView
+            android:layout_marginTop="-80dp"
+            android:layout_width="match_parent"
+            android:src="@drawable/dabbawalabanner2"
+            android:layout_height="wrap_content"></ImageView>
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

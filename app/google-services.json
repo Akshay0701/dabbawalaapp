@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "69967784028",
+    "firebase_url": "https://dabbaapp-b4446.firebaseio.com",
+    "project_id": "dabbaapp-b4446",
+    "storage_bucket": "dabbaapp-b4446.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69967784028:android:c64cec91e860da38761e99",
+        "android_client_info": {
+          "package_name": "com.example.dabbaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69967784028-tprpsavs2ure53f4b0j9m5p2huk6t1td.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dabbaapp",
+            "certificate_hash": "1a601f78e26df9769596d095881aa4c6f715c7be"
+          }
+        },
+        {
+          "client_id": "69967784028-0of2lj70u29qpcsfo5sk0dhdbrkqbk6b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdTPb3JxwXiv9KgdpwCu0pdw7Fzz6w36Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "69967784028-0of2lj70u29qpcsfo5sk0dhdbrkqbk6b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

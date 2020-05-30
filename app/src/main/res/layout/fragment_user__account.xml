@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".user.User_Account">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:nestedScrollingEnabled="false"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="405dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="20dp"
+                    android:id="@+id/reletive"
+                    android:background="@drawable/backnav"
+                    android:layout_height="250dp">
+
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:id="@+id/backimg"
+                        android:scaleType="centerCrop"
+                        android:layout_height="match_parent">
+
+                    </ImageView>
+                    <ImageView
+                        android:layout_marginTop="45dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="150dp"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/avatarIV"
+                        android:layout_height="150dp"
+                        android:src="@drawable/profilepic"/>
+
+
+
+
+
+                </RelativeLayout>
+            <Button
+                android:id="@+id/logout"
+                android:layout_width="170dp"
+                android:layout_height="70dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/reletive"
+                android:layout_marginTop="-50dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/logoutbtn"></Button>
+
+
+
+
+
+                <LinearLayout
+                    android:id="@+id/line"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/reletive"
+                    android:background="@drawable/backcard2"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:text="Name"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/Name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:paddingTop="10dp"
+                            android:text="userName"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:text="Emails"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/Email"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:paddingTop="10dp"
+                            android:text="userEmail"
+                            android:maxLines="1"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:text="Password"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/passord"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:paddingTop="10dp"
+                            android:text="userPass"
+                            android:maxLines="1"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/line"
+                android:background="@drawable/backcard2"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="Phone NO"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/Phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:paddingTop="10dp"
+                        android:text="userPhone"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="20sp"
+                        android:maxLines="1"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="ID"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/uId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:paddingTop="10dp"
+                        android:text="UIDtxt"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="20sp"
+                        android:maxLines="1"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <!--  <androidx.cardview.widget.CardView
+               android:layout_width="400dp"
+               android:layout_height="112dp"
+               android:id="@+id/cardview1"
+               app:cardBackgroundColor="@color/colorAccent"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="275dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="horizontal"
+                   android:weightSum="3">
+
+                   <LinearLayout
+                       android:gravity="center"
+                       android:orientation="vertical"
+                       android:layout_width="0dp"
+                       android:layout_weight="1"
+                       android:layout_height="match_parent">
+                       <TextView
+                           android:textColor="@color/colorPrimaryDark"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="Name"
+                           android:textStyle="bold"
+                           android:textSize="20sp"
+                           />
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="40dp"
+                           android:text="Akshay Vilas Jadhav asdas"
+                           android:id="@+id/nameTv"
+                           android:padding="10dp"
+                           android:layout_gravity="center"
+                           android:gravity="center"
+                           android:textSize="15dp"
+                           android:paddingTop="10dp"
+                           android:textColor="@color/colorPrimaryDark"/>
+
+                   </LinearLayout>
+                   <LinearLayout
+                       android:gravity="center"
+                       android:orientation="vertical"
+                       android:layout_width="0dp"
+                       android:layout_weight="1"
+                       android:layout_height="match_parent">
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="Email"
+                           android:textColor="@color/colorPrimaryDark"
+
+                           android:textStyle="bold"
+                           android:textSize="20sp"
+                           />
+                       <TextView
+                           android:textColor="@color/colorPrimaryDark"
+                           android:layout_width="wrap_content"
+                           android:layout_height="40dp"
+                           android:text="jadhavakshay0701@.com"
+                           android:id="@+id/emailTv"
+                           android:gravity="center"
+
+                           android:layout_gravity="center"
+                           android:textSize="15dp"
+                           android:padding="10dp"
+                           android:paddingTop="10dp"
+                           />
+
+                   </LinearLayout>
+                   <LinearLayout
+                       android:gravity="center"
+                       android:orientation="vertical"
+                       android:layout_width="0dp"
+                       android:layout_weight="1"
+                       android:layout_height="match_parent">
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="Phone"
+                           android:textColor="@color/colorPrimaryDark"
+                           android:textStyle="bold"
+                           android:textSize="20sp"
+                           />
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="40dp"
+                           android:text="9082993792"
+                           android:id="@+id/phoneTv"
+                           android:layout_gravity="center"
+                           android:textSize="15dp"
+                           android:padding="10dp"
+                           android:paddingTop="10dp"
+                           android:textColor="@color/colorPrimaryDark"/>
+
+                   </LinearLayout>
+               </LinearLayout>
+
+
+           </androidx.cardview.widget.CardView> -->
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

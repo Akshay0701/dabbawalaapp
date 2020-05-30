@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">DabbaApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="dabbaType">
+        <item>Select Dabba Size</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <string-array name="Timing">
+        <item>Select Timing</item>
+        <item>10amTo11am</item>
+        <item>11amTo12am</item>
+        <item>12pmTo1pm</item>
+    </string-array>
+    <string-array name="Quantity">
+        <item>Select Quantity</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+</resources>

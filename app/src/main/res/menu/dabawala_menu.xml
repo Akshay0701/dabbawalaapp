@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/daba_order"
+        android:title=""
+        android:icon="@drawable/menu"
+        ></item>
+    <item
+        android:id="@+id/daba_account"
+        android:title=""
+        android:icon="@drawable/profile"
+        ></item>
+    <item
+        android:id="@+id/asdas"
+        android:title=""
+        android:icon="@drawable/heart"
+        ></item>
+
+</menu>

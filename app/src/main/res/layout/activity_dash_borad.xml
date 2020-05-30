@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".user.DashBoradActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/bar"
+        android:background="@drawable/backnav">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:id="@+id/toolbar"
+            tools:targetApi="lollipop">
+            <TextView
+                android:id="@+id/txt"
+                android:layout_width="match_parent"
+                android:text="Home"
+                android:textSize="33dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:layout_marginLeft="17dp"
+                android:layout_height="wrap_content"></TextView>
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/content1">
+
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_marginTop="10dp"
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/backnav"
+        app:menu="@menu/user_menu_nav" />
+
+
+</LinearLayout>

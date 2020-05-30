@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="2dp"
+    app:cardMaxElevation="7dp"
+    android:background="@drawable/backcard2"
+    app:cardCornerRadius="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="90dp"
+            android:id="@+id/avatarIv"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:foregroundGravity="center_vertical"
+            android:layout_marginBottom="10dp"
+            android:layout_height="90dp"
+            android:src="@drawable/profilepic"
+            />
+        <LinearLayout
+            android:layout_marginLeft="13dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Unametv"
+                android:text="Stantaram Roa"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:textSize="20dp"
+
+                />
+            <TextView
+                android:id="@+id/Ulocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="Location.."
+                />
+            <TextView
+                android:id="@+id/UQuantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:gravity="left"
+                android:text="Special"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:layout_marginRight="50dp"
+        android:src="@drawable/addbtn"
+        android:layout_height="wrap_content"></ImageView>
+</RelativeLayout>

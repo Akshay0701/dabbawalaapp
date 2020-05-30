@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+      <ImageView
+          android:id="@+id/banner"
+          android:layout_width="match_parent"
+          android:src="@drawable/banner"
+          android:layout_height="wrap_content"></ImageView>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:orientation="horizontal"
+          android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/dabaWalaIv"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:src="@drawable/dabbawalabtn"
+        android:layout_height="wrap_content"></ImageView>
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/userIv"
+            android:layout_width="wrap_content"
+            android:src="@drawable/userbtn"
+            android:layout_height="wrap_content"></ImageView>
+      </LinearLayout>
+      <TextView
+          android:layout_width="match_parent"
+          android:text="Dabbawala"
+          android:textSize="35dp"
+          android:textStyle="bold"
+          android:textColor="@color/colorAccent"
+          android:layout_marginLeft="17dp"
+          android:layout_height="wrap_content"></TextView>
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="-30dp"
+          android:layout_marginBottom="-30dp"
+          android:src="@drawable/dabbawala"></ImageView>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:text="Achievement"
+          android:textSize="35dp"
+          android:textStyle="bold"
+          android:textColor="@color/colorAccent"
+          android:layout_marginLeft="17dp"
+          android:layout_height="wrap_content"></TextView>
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_marginTop="-100dp"
+          android:layout_marginBottom="-30dp"
+          android:src="@drawable/achivementschart"
+          android:layout_height="wrap_content"></ImageView>
+    </LinearLayout>
+
+  </ScrollView>
+
+  </RelativeLayout>

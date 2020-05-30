@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dabbaapp">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/dabbawalalogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/dabbawalalogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.NoActionBar">
+        <activity android:name=".dabbawala.DabaOrderDetails" />
+        <activity android:name=".dabbawala.Dabawalaregister" />
+        <activity android:name=".user.order_daba" />
+        <activity android:name=".dabbawala.DabaOrderActivity" />
+        <activity android:name=".dabbawala.DabbawalaDashboard" />
+        <activity android:name=".dabbawala.Dabbawalalogin" />
+        <activity android:name=".user.UserSignIn" />
+        <activity android:name=".user.DashBoradActivity" />
+        <activity android:name=".user.UserLogin" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
