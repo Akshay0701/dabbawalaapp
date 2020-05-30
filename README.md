@@ -1,6 +1,6 @@
 # Dabba Wala App
 
-### Sample Management App For Mumbai Ka DabbaWala
+### Sample Management App For Mumbai DabbaWala
 
 <img src="https://i.ibb.co/g4ZY4TW/dabbawalalogo.png" height="200" width="200">
 
