@@ -9,19 +9,8 @@
                                        
 ----------------------------------------------------------------------------------------------------------------------------------
 
-## App Features
-
-### 1 - Lorem Ipsum is simply dummy tex
-### 2 - Lorem Ipsum is simply dummy text .
-### 3 - Lorem Ipsum is simply dummy text
-### 4 - Lorem Ipsum is simply dummy text 
-### 5 - Lorem Ipsum is simply dummy text 
-### 6 - Lorem Ipsum is simply dummy text 
-### 7 - Lorem Ipsum is simply dummy text 
-### 8 - Lorem Ipsum is simply dummy text
-### 9 - Lorem Ipsum is simply dummy text
-### 10 - Lorem Ipsum is simply dummy text.
-### And many more......
+# ABSTRACT 
+This project provides an android application through which people of Mumbai can order Dabba service online using the internet. The main motive of this project is to have practical knowledge of Dabbawala’s team and their actual performance in the supply and management of food delivery service. Now a day’s readymade food is easily available but homemade food and its taste is a different matter. In our busy schedule, fresh and homemade food preparation is difficult in early mornings. However, it is made possible by Dabbawala’s as they carry homemade food and deliver the same before our lunchtime. Mumbaikars can directly order a dabba for their afternoon lunch online. This application is built to be beneficial to student knowledge as well as help Mumbai dabbawala’s.
 
 
 ## Working ScreenShot
@@ -36,19 +25,4 @@
 # Database 
 
 <img src="https://cdn-media-1.freecodecamp.org/images/0*CPTNvq87xG-sUGdx.png" height="300" width="400">
-
-
-
-# ABSTRACT 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. receivers. 
-
-
-### Importance of the Project: -
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-
-## Need of this application: -
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-
 
