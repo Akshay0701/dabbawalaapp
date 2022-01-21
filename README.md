@@ -25,3 +25,4 @@ This project provides an android application through which people of Mumbai can 
 
 <img src="https://cdn-media-1.freecodecamp.org/images/0*CPTNvq87xG-sUGdx.png" height="300" width="400">
 
+Firebase Realtime Database is a cloud-hosted database that supports multiple platforms Android, iOS and Web. All the data is stored in JSON format and any changes in the data, reflects immediately by performing sync across all the platforms & devices.
