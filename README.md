@@ -15,7 +15,7 @@ This project provides an android application through which people of Mumbai can 
 
 ### Home Screen & Loading Screen
 
-<img src="https://i.ibb.co/sbThndF/homegif.gif" height="400" width="200">-------<img src="https://i.ibb.co/6Bvznmg/homepage.jpg" height="400" width="200">-------<img src="https://i.ibb.co/dLqQV02/Homepage5.png" height="400" width="200">
+<img src="9d640fc7-289a-422d-b720-cff08aee1407.jpg" height="400" width="200">-------<img src="https://i.ibb.co/6Bvznmg/homepage.jpg" height="400" width="200">-------<img src="https://i.ibb.co/dLqQV02/Homepage5.png" height="400" width="200">
 
 ### Dabba Order Screen
 <img src="39892f17-be15-4718-8c69-593c78d1a8e5.jpg" height="400" width="200">-------<img src="https://i.ibb.co/hsH5gtT/Order1.jpg" height="400" width="200">-------<img src="https://i.ibb.co/djd849j/Order3.jpg" height="400" width="200">
