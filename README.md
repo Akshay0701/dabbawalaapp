@@ -12,10 +12,3 @@ This Android application redefines Dabba service in Mumbai, offering a convenien
 Make Pull requests which improve the functionality of the application in any sorts. It should conform with the following conditions. 
 * Clear , short , crisp description of the PR. 
 * Should add on to the value of the application.
-
-
-## Acknowledgments 💖
-
-* To my family👪  and friends 👫 who always kept me motivated.
-* To the community of computer science 💻.
-
